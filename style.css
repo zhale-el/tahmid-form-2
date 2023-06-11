@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: none;
+  outline: none; */
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("./nature-kholm-derevo-sneg-zima-sumerki-83884.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: gray; */
+}
+.main-box {
+  border: 3px solid blue;
+  background-color: green;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-box .main-box__title {
+}
+
+.main-box .main-box__form {
+}
+
+.form .form__fields {
+}
+.form .form__actions {
+  /*  */
+}
+
+.form__fields .form-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.form-field input {
+  /* margin-left: auto; */
+}
+.form__actions .checkbox {
+  /*  */
+}
+.form__actions .submit {
+}
